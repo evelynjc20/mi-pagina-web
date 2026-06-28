@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction Solutions LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <strong style="color: var(--gold); font-size: 1.2rem;">CONSTRUCTION</strong>
+      </div>
+      <div class="nav-links">
+        <a href="#hero">Inicio</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#why-us">Nosotros</a>
+      </div>
+      <div class="nav-cta">
+        <a href="#contact" class="btn-gold btn-sm">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Ingeniería & Construcción</span>
+      <h1 class="hero-title">Edificando el Futuro con <span class="gold-text">Precisión Absoluta</span></h1>
+      <p class="hero-sub">
+        Desarrollamos proyectos de infraestructura y construcción comercial de alto rendimiento. Nuestra metodología fusiona planificación estratégica, materiales de primera calidad y ejecución impecable para materializar tu visión.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-gold btn-lg">Solicitar Consulta</a>
+        <a href="#portfolio" class="btn-outline btn-lg">Ver Proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-eyebrow">Nuestras Especialidades</span>
+        <h2 class="section-title">Soluciones Integrales</h2>
+        <p class="section-sub">Cubrimos todo el ciclo de vida del proyecto, asegurando eficiencia, cumplimiento normativo y acabados de primer nivel en cada fase de la obra.</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Gestión de Proyectos</h3>
+          <p>Coordinación exhaustiva desde la conceptualización hasta la entrega final, optimizando tiempos y recursos con rigor técnico.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg>
+          </div>
+          <h3>Desarrollo Comercial</h3>
+          <p>Construcción y adecuación de espacios corporativos e industriales, diseñados para maximizar la operatividad y el impacto visual.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Restauración Estructural</h3>
+          <p>Rehabilitación de edificaciones existentes mediante técnicas avanzadas que garantizan la integridad y longevidad del inmueble.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-eyebrow">Registro de Obras</span>
+        <h2 class="section-title">Nuestro <span class="gold-text">Historial de Excelencia</span></h2>
+        <p class="section-sub">Explora nuestra galería de intervenciones recientes. Cada video documenta nuestro compromiso con la calidad estructural y la atención al detalle.</p>
+      </div>
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <div class="video-wrapper">
+            <video src="video1.mp4" controls preload="metadata"></video>
+          </div>
+          <div class="portfolio-caption">
+            <span class="portfolio-tag">Desarrollo Comercial</span>
+            <h4>Complejo Corporativo Norte</h4>
+            <p>Cimentación profunda y levantamiento de estructura metálica en un plazo de 8 meses, superando los estándares sísmicos actuales.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="video-wrapper">
+            <video src="video2.mp4" controls preload="metadata"></video>
+          </div>
+          <div class="portfolio-caption">
+            <span class="portfolio-tag">Residencial Premium</span>
+            <h4>Residencial Altos del Valle</h4>
+            <p>Integración de sistemas de eficiencia energética y acabados arquitectónicos de alta gama en un terreno con desnivel complejo.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="video-wrapper">
+            <video src="video3.mp4" controls preload="metadata"></video>
+          </div>
+          <div class="portfolio-caption">
+            <span class="portfolio-tag">Infraestructura</span>
+            <h4>Centro de Distribución Logística</h4>
+            <p>Pavimentación de alta resistencia y diseño logístico interior optimizado para flujos continuos de transporte pesado.</p>
+          </div>
+        </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section id="why-us">
+    <div class="section-inner why-inner">
+      <div class="why-text-content">
+        <span class="section-eyebrow">El Estándar de la Industria</span>
+        <h2 class="section-title">¿Por qué confiar en nuestra firma?</h2>
+        <p class="why-desc">
+          No nos limitamos a construir espacios; forjamos alianzas basadas en la transparencia y los resultados tangibles. Nuestro equipo técnico evalúa minuciosamente cada variable del entorno para mitigar riesgos operativos, garantizando que su inversión esté protegida y se revalorice con el tiempo.
+        </p>
+      </div>
+      <div class="why-visual">
+        <div class="why-img-frame">
+          <div style="padding: 2rem; background: rgba(0,0,0,0.5); height: 100%; display: flex; align-items: center; justify-content: center;">
+             <p style="text-align: center; font-style: italic;">Compromiso inquebrantable con las normativas internacionales de seguridad y calidad técnica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-eyebrow">Contacto Profesional</span>
+        <h2 class="section-title">Inicie su <span class="gold-text">Próximo Proyecto</span></h2>
+        <p class="section-sub">Nuestro equipo de ingenieros y asesores está listo para analizar sus requerimientos técnicos y ofrecerle una propuesta económica optimizada.</p>
+      </div>
+      <div class="contact-inner">
+        <div>
+          <p class="contact-desc">Agende una reunión técnica corporativa o solicite un presupuesto estimado sin compromiso.</p>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form">
+            <div class="form-group">
+              <label>Nombre Completo / Empresa</label>
+              <input type="text" placeholder="Ej. Corporativo Arca S.A." required>
+            </div>
+            <div class="form-group">
+              <label>Correo Electrónico Corporativo</label>
+              <input type="email" placeholder="contacto@empresa.com" required>
+            </div>
+            <div class="form-group">
+              <label>Tipo de Obra</label>
+              <select>
+                <option>Desarrollo Comercial / Industrial</option>
+                <option>Restauración Estructural</option>
+                <option>Consultoría de Ingeniería</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Alcance del Proyecto</label>
+              <textarea placeholder="Describa brevemente las dimensiones y especificaciones técnicas de la obra..."></textarea>
+            </div>
+            <button type="submit" class="btn-gold btn-block">Enviar Requerimientos</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
